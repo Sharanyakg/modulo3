@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(){
-int product=0,i,num,j;
+int product=1,i,num,j;
 printf("enter number\n"):
 scanf("%d",&num);
-while(i!=0){
-j=i%10;
+while(num!=0){
+j=num%10;
 product=product*j;
-i=i/10;
+num=num/10;
 }
 printf("product of entered number is %d",product);
 
